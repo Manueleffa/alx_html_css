@@ -1,0 +1,33 @@
+body, main{
+    display: flex;
+}
+
+body{
+    flex-direction: column;
+}
+
+header{
+    background-color: rgb(42, 165, 77);
+}
+
+main{
+    flex-direction: row;
+    flex: auto;
+    background-color: aqua;
+}
+
+main article{
+    flex: 2;
+}
+
+main aside{
+    flex: 1;
+    background-color: bisque;
+}
+
+main article, main aside{
+    overflow-y: auto;
+}
+footer {
+    background-color: aquamarine;
+}

@@ -6,6 +6,10 @@ body{
     flex-direction: column;
 }
 
+header{
+    background-color: rgb(187, 255, 169);
+}
+
 main{
     flex-direction: row;
     flex: auto;
@@ -21,4 +25,12 @@ main aside{
 
 main article, main aside{
     overflow-y: auto;
+}
+
+article h1{
+    color: rgb(25, 97, 6);
+}
+
+footer{
+    background-color: rgb(187, 255, 169);
 }

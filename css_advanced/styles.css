@@ -1,0 +1,142 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#C271FF;
+}
+
+html,
+body{
+    font-family: 'Source Sans 3';
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+header {
+    background: url("images/Object.png") center center/cover no-repeat;
+    padding-top: 35px;
+    padding-bottom: 98px;
+}
+
+header .header-container {
+    max-width: 1104px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 0 3rem;
+}
+
+nav .logo{
+    width: 167px;
+    height: 30px;
+}
+
+ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.banner-head{
+    margin: 155px 0 168px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-head h1{
+    font-size: 120px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.banner-head .three-words{
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 59px;
+    margin-bottom: 38px;
+}
+
+.banner-head button{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #C271FF;
+    border: 1px solid #979797;
+    border-radius: 22px;
+    padding: 13px 21px;
+    box-shadow: 0 2px 20px 0 #000;
+}
+
+.banner-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.banner-body h2{
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 87px;
+}
+
+.banner-body h2 span{
+    font-weight: 900;
+    color: #C271FF;
+}
+
+.banner-body .pros{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0 139px;
+}
+
+.banner-body .pros img{
+    border-radius: 50%;
+}
+
+.banner-body .pros h3{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.banner-body .pros p{
+    font-size: 16px;
+    font-style: italic;
+}

@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <script
       src="https://kit.fontawesome.com/4a2b055604.js"
@@ -12,52 +18,52 @@
   </head>
   <body>
     <!-- Header Start -->
-    <header>
-      <nav>
-        <a href="/"><img src="images/logo.png" alt="logo" /></a>
-        <ul>
-          <li><a href="#">Courses</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Login</a></li>
+    <header id="header">
+      <!-- navbar starts -->
+      <nav id="navbar" class="header-container">
+        <a href="/" class="logo"><img src="images/logo.png" alt="logo" /></a>
+        <ul class="menu-list">
+          <li class="menu-item"><a href="#">Courses</a></li>
+          <li class="menu-item"><a href="#">Pricing</a></li>
+          <li class="menu-item"><a href="#">Login</a></li>
         </ul>
       </nav>
-    </header>
-    <!-- Header Start -->
+      <!-- navbar ends -->
 
-    <!-- Main Area Starts -->
-    <main>
       <!-- banner section starts -->
-      <section>
-        <div>
+      <section id="banner" class="header-container">
+        <div class="banner-head">
           <h1>Get Schooled</h1>
-          <span>SMILES</span>
-          <span>GRIN</span>
-          <span>LAUGH</span>
+          <div class="three-words">
+            <span>SMILES</span>
+            <span>GRIN</span>
+            <span>LAUGH</span>
+          </div>
           <button>Register For Free</button>
         </div>
 
-        <div>
+        <div class="banner-body">
           <h2><span>Learn</span> from the pros</h2>
-          <div>
-            <div>
+          <div class="pros">
+            <div class="pros-item">
               <img src="images/1.png" alt="phillip massey" />
               <h3>Phillip Massey</h3>
               « Smile of the year » 2018 - 2019
             </div>
 
-            <div>
+            <div class="pros-item">
               <img src="images/3.png" alt="Nannie lawrence" />
               <h3>Nannie Lawrence</h3>
-              <p>Best « little smile » 2017</p>
+              <p>Best « little smile » <br> 2017</p>
             </div>
 
-            <div>
-              <img src="images/2.png" alt="Bruce walters" />
+            <div class="pros-item">
+              <img src="images/2.png" class="bruce" alt="Bruce walters" />
               <h3>Bruce Walters</h3>
               <p>Best « Friend Smile » live performance 2019</p>
             </div>
 
-            <div>
+            <div class="pros-item">
               <img src="images/4.png" alt="henry hughes" />
               <h3>Henry Hughes</h3>
               <p>« 24h smiles » winner 2016 - 2019</p>
@@ -66,7 +72,11 @@
         </div>
       </section>
       <!-- banner section starts -->
+    </header>
+    <!-- Header Start -->
 
+    <!-- Main Area Starts -->
+    <main id="main">
       <!-- Quote section starts -->
       <section>
         <div>

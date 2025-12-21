@@ -1,0 +1,118 @@
+/* Source Sans Pro */
+
+/* Regular */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('source-sans-pro/SourceSansPro-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Italic */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('source-sans-pro/SourceSansPro-It.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('source-sans-pro/SourceSansPro-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Bold Italic */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('source-sans-pro/SourceSansPro-BoldIt.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Black */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('source-sans-pro/SourceSansPro-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Black Italic */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('source-sans-pro/SourceSansPro-BlackIt.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* ExtraLight */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('source-sans-pro/SourceSansPro-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ExtraLight Italic */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('source-sans-pro/SourceSansPro-ExtraLightIt.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Light */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('source-sans-pro/SourceSansPro-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Light Italic */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('source-sans-pro/SourceSansPro-LightIt.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* SemiBold */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('source-sans-pro/SourceSansPro-Semibold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* SemiBold Italic */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('source-sans-pro/SourceSansPro-SemiboldIt.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Spin Cycle */
+@font-face {
+    font-family: 'Spin Cycle';
+    src: url('spin-cycle-ot-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

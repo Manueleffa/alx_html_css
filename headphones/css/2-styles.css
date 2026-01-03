@@ -161,27 +161,31 @@ img {
 
 /* Header Ends */
 
-/* What we do section */
+/* What we do & Our results section  */
 
-#what-we-do {
+#what-we-do,
+#our-results {
   padding: 6.8rem 0;
   text-align: center;
 }
 
 
-#what-we-do h2{
+#what-we-do h2,
+#our-results h2{
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 2.5rem;
   color: var(--secondary-color);
 }
 
-.what-we-do-text{
+.what-we-do-text,
+.our-results-text{
   margin-bottom: 6rem;
   padding: 0 11rem;
 }
 
-.what-we-do-flex{
+.what-we-do-flex,
+.our-results-flex{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
@@ -203,24 +207,38 @@ img {
   font-weight: 400;
 }
 
+#our-results{
+  background: url("../images/our-results/background.png") center center/cover no-repeat;
+  color: #fff;
+  padding: 9rem 0 5rem;
+}
+
+#our-results h2{
+  color: #fff;
+}
+
+
 /* Media Queries */
 @media (max-width: 768px) {
   .hero {
     padding: 19.5rem 4rem 7rem;
   }
 
-  .what-we-do-flex{
+  .what-we-do-flex,
+  .our-results-flex{
     grid-template-columns: repeat(2, 1fr);
     padding: 0 10px;
     column-gap: 2rem;
     row-gap: 4rem;
   }
 
-  .what-we-do-flex .icon-box{
+  .what-we-do-flex .icon-box,
+  .our-results-flex .icon-box{
     padding: 0 3rem;
   }
 
-  .what-we-do-text{
+  .what-we-do-text,
+  .our-results-text{
     padding: 1rem;
     align-items: center;
   }
@@ -262,12 +280,14 @@ img {
     margin-bottom: 1.25rem;
   }
 
-  .what-we-do-flex{
+  .what-we-do-flex,
+  .our-results-flex{
     grid-template-columns: 1fr;
     padding: 0 10px;
   }
 
-  .what-we-do-flex .icon-box{
+  .what-we-do-flex .icon-box,
+  .our-results-flex .icon-box{
     padding: 0 7rem;
   }
 }
